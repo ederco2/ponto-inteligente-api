@@ -87,7 +87,7 @@ public class Funcionario implements Serializable {
 		this.senha = senha;
 	}
 
-	@Column(name="cpj",nullable=false)
+	@Column(name="cpf",nullable=false)
 	public String getCpf() {
 		return cpf;
 	}
